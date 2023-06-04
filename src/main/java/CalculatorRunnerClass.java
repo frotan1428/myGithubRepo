@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class CalculatorRunnerClass {
+public class CalculatorRunnerClass {
+
+    public static void main(String[] args) {
+
+        Calculator calculator = new Calculator();
+        calculator.add(4,6);
+
+    }
 }
